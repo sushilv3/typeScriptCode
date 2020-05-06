@@ -9,6 +9,6 @@ interface IDerivedFromBase extends IBase{
 }
 
 class InterfaceInheritance implements IDerivedFromBase{
-id:number;
-name:string;
+    id:number;
+    name:string;
 }
