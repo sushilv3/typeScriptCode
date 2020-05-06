@@ -27,8 +27,10 @@ interface GenericInterface<T>{
 //generic class
 class GenericClass<T>{
     zeroValue: T;
+
     //function with return generic type
     add: (x:T, y:T) => T;
 }
+
 
 
