@@ -12,8 +12,9 @@ interface IComplexType{
 let complexType : IComplexType = {id:1, name:'sushil'};
 
 interface Point{
-    x:number;
-    y:number;
+      x:number;
+      //readonly property (getter)
+      readonly y:number;
 }
 
 let p1:Point = {x:2, y:3};
